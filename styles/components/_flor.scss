@@ -1,0 +1,42 @@
+@import "../abstract/variaveis";
+
+#flor {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  .img-container {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .texto-container {
+    width: 40%;
+    border-right: 6px solid $cor-secundaria;
+    padding-right: 1rem;
+
+    h3 {
+      font-size: $tamanho-do-texto / 2;
+      color: $cor-primaria;
+      margin-bottom: 4px;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      color: $cor-secundaria;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      color: $cor-primaria;
+      line-height: 1.25rem;
+    }
+  }
+}
